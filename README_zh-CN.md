@@ -1,6 +1,8 @@
-<h1 align="center">Infio-Copilot</h1>
+<h1 align="center">Obsidian-Infio-Copilot</h1>
 
-**Infio-Copilot 是一个受 Cursor 启发的 Obsidian AI 助手，为您的笔记提供智能自动补全和交互式对话功能**
+## 让你的 Obsidian 秒变个人 AI 工作站！
+
+**Infio Copilot 是一款可高度个人定制化的 Obsidian AI 插件，旨在帮助用户在本地工作流中轻松使用各类强大的 AI 大模型，为知识库提供交互式对话、内联编辑、智能补全、全库检索问答等功能。**
 
 [English Version](README.md)
 
@@ -8,37 +10,69 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/felixduan)
 
+## 🚀 为什么推荐 Infio Copilot？
+
+- **本地优先**：秉承 Obsidian 相同的 local first 理念，让一切发生在本地
+- **全面增强**：从段落、全篇改写到全库问答，覆盖知识库管理全流程
+- **高度定制**：自由切换 LLM、配置提示模板，并可按需创建/切换专属 Agent 角色
+- **极速响应**：向量数据通过本地数据库存储，使整体响应速度提升 2–3 倍
+- **用户驱动**：我们是个人开发者、 Obsidian 深度用户，功能迭代源于真实痛点与社区反馈
+
 ## 最新版本
-[0.1.7](https://github.com/infiolab/infio-copilot/releases/tag/0.1.7) 添加图片选择器模态框，允许用户在聊天中搜索、选择和上传图片
 
-## 功能特点
+[0.2.4](https://github.com/infiolab/infio-copilot/releases/tag/0.2.4) 增加了多语言支持
 
-### 对话与编辑流程
+[0.2.3](https://github.com/infiolab/infio-copilot/releases/tag/0.2.3) 增加了自定义模式配置，现在无法创建自己的 agent
 
-在 Obsidian 中获取即时 AI 辅助，并一键应用建议的改进
+[0.1.7](https://github.com/infiolab/infio-copilot/releases/tag/0.1.7) 增加了图片选择器模态框，允许用户在 Obsidian vault 或本地文件浏览器中搜索、选择和上传图片
 
-![chat-with-select](asserts/chat-with-select.gif)
+[0.1.6](https://github.com/infiolab/infio-copilot/releases/tag/0.1.6) 更新了应用视图 (apply view)，现在可以在应用视图中编辑内容
 
+## 核心特色功能
 
-### 自动补全
+| 功能           | 描述                                                                  |
+| -------------- | --------------------------------------------------------------------- |
+| 🖋️ 内联编辑    | 选中文本 → 直接与 AI 讨论 → 一键应用到原段落                                   |
+| 💬 对话式改写  | 与单个笔记进行智能对话，轻松修改或重写原文内容                                     |
+| 📝 智能自动补全 | 边写边补，结合全局上下文，实时生成精准续写                                      |
+| 🖼️ 图片识别    | 支持 Vault 内或本地图片上传 → AI 智能识别并分析（v0.1.7+）                     |
+| 🔍 全库问答 (RAG)| 针对整个 Vault 提问，跨笔记检索并整合答案                                     |
+| 🌐 DeepResearch| 根据问题搜索互联网数据，生成研究报告（轻量级）                                  |
 
-在您输入时获取上下文感知的写作建议
+### 🖋️ 内联编辑
 
-![autocomplte](asserts/autocomplete.gif)
-
-
-### 内联编辑
-
-直接在当前文件中编辑您的笔记
+选中文本 → 直接与 AI 讨论 → 一键应用到原段落
 
 ![inline-edit](asserts/edit-inline.gif)
 
 
-### 与知识库对话
 
-利用 AI 的力量与您的整个 Obsidian 知识库进行交互，获取跨笔记的见解和联系
+### 💬 **对话式改写**
+
+与单个笔记进行智能对话，轻松修改或重写原文内容
+![chat-with-select](asserts/chat-with-select.gif)
+
+
+### 📝 **智能自动补全**
+
+输入时获取上下文感知的写作建议 （ ⬇️ 以下第4条为 AI 自动补全 ）
+
+![autocomplte](asserts/autocomplete.gif)
+
+
+
+🔍 **全库问答 (RAG)**
+
+针对整个 Vault 提问，跨笔记检索并整合答案
 
 ![rag](asserts/rag.gif)
+
+🖼️ **图片识别**
+
+支持 Vault 内或本地图片上传→AI 智能识别并分析（v0.1.7+）
+
+
+
 
 ## 开始使用
 
@@ -82,7 +116,8 @@
 - **功能请求**：对于新功能想法或改进建议，请使用我们的 [GitHub Discussions - Ideas & Feature Requests](https://github.com/infiolab/infio-copilot/discussions/categories/ideas) 页面。创建新的讨论来分享您的建议。
 
 ## 交流
-![WechatIMG185 1](https://github.com/user-attachments/assets/d689c9d6-fdea-499c-99bd-4af4649abe1d)
+
+![weixin](https://github.com/user-attachments/assets/bc985cee-b019-417d-b726-95c79b0043e4)
 
 
 ## 致谢
