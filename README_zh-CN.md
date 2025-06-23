@@ -105,7 +105,7 @@ Infio Copilot 是一款可高度个人定制化的 Obsidian AI 插件，旨在�
 - **功能请求**：对于新功能想法或改进建议，请使用我们的 [GitHub Discussions - Ideas & Feature Requests](https://github.com/infiolab/infio-copilot/discussions/categories/ideas) 页面。创建新的讨论来分享您的建议。
 
 ## 交流
-![wx- group](https://github.com/user-attachments/assets/b6b8f982-bca2-4819-8b43-572fefcacf2e)
+![wechat](https://github.com/user-attachments/assets/37b39f97-7053-4afc-a440-39cd126cd15b)
 
 ## 致谢
 
